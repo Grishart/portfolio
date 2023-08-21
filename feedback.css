@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Manrope';
+    font-size: 18px;
+}
+
+.form {
+    width: 430px;
+}
+
+.form_input {
+    width: 430px;
+    height: 40px;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    border-radius: 4px;
+    padding-left: 8px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #fff;
+    font-size: 18px;
+}
+
+.form_input_message {
+    font-size: 18px;
+    font-family: 'Manrope';
+    padding-top: 4px;
+    height: 120px;
+    resize: none;
+}
+
+.form_footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+}
+
+.form_checkbox {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.form_box_checkbox {
+    display: flex;
+}
+
+.form_button {
+    width: 180px;
+    height: 50px;
+    border: 1px solid rgba(11, 167, 216, 1);
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgba(11, 167, 216, 1);
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Manrope';
+    cursor: pointer;
+}
+
+.form_button:hover {
+    color: rgba(11, 167, 216, 1);
+    background-color: #fff;
+    transition: 0.5s;
+}
